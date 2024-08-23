@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Slow Performance",
+    "solution": "Free up disk space: Delete unnecessary files, empty recycle bin, and uninstall unused programs. Manage startup programs: Prevent unnecessary programs from launching at startup. Close background processes: End resource-intensive tasks running in the background. Update software: Ensure your operating system and applications are up-to-date. Check for malware: Run a full system scan with antivirus software. Consider hardware upgrades: If performance is still poor, adding more RAM or upgrading your storage might help."
+  },
+  {
+    "title": "Blue Screens of Death (BSOD)",
+    "solution": "Update drivers: Ensure all device drivers are up-to-date. Check for overheating: Clean vents and consider using a cooling pad. Run a memory test: Check for RAM issues. Scan for malware: Remove any potential threats. Create a system restore point: This allows you to revert to a previous working state. Reinstall operating system: If other solutions fail, a clean install might be necessary."
+  },
+  {
+    "title": "Malware and Viruses",
+    "solution": "Run a full system scan: Use reputable antivirus software. Update antivirus software: Ensure it has the latest virus definitions. Be cautious with downloads: Avoid suspicious websites and attachments. Keep software updated: Install security patches to protect against vulnerabilities."
+  },
+  {
+    "title": "Wi-Fi Issues",
+    "solution": "Restart router and modem: This can resolve temporary connection issues. Check Wi-Fi signal strength: Move closer to the router or use a Wi-Fi extender. Update network drivers: Ensure your network adapter has the latest drivers. Forget and reconnect: Remove and re-add the Wi-Fi network. Troubleshoot network adapter: Check for hardware issues."
+  }
+]
