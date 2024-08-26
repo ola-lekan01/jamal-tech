@@ -2,7 +2,7 @@ import React from 'react';
 
 interface Issue {
     title: string;
-    solution: string;
+    solutions: string[];
 }
 
 interface IssueListProps {
@@ -16,7 +16,11 @@ const IssueList: React.FC<IssueListProps> = ({ issues }) => {
                 issues.map((issue, index) => (
                     <div key={index} className="issue-item">
                         <h2>{issue.title}</h2>
-                        <p>{issue.solution}</p>
+                        <ul>
+                            {issue.solutions.map((solution, i) => (
+                                <li key={i}>{solution}</li>
+                            ))}
+                        </ul>
                     </div>
                 ))
             ) : (
